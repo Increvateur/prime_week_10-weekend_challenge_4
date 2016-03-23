@@ -1,49 +1,35 @@
-html {
-  margin-top: -21px;
-}
 body {
-  margin: auto;
-  background-color: purple;
+  font-family: 'Arimo', sans-serif;
+  background-color: #044C29;
+  margin: 50px 400px 50px 400px;
+  border-radius: 20px;
+  border-width: thin;
+  border-style: solid;
+  color: white;
 }
+
+.container {
+  background-color: #167F39;
+  padding: 20px;
+  border-radius: 20px;
+}
+
 .header {
   text-align: center;
-  width: 100%;
-  height: 70px;
-  background-color: red;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
 }
-.header-h1 {
-padding-top: 15px;
+
+.todo-list-display {
+  border-top-style: solid;
+  border-top-width: medium;
+  padding: 20px;
+  margin: -20px;
 }
-.sidebar {
-  background-color: blue;
-  width: 30%;
-  height: 100%;
-  float: left;
-  margin: 5px 0 0 5px;
-  border-radius: 15px;
-}
-.sidebar-h1 {
-  text-align: center;
-}
-.main {
-  background-color: green;
-  width: 69%;
-  height: 100%;
-  float: right;
-  border-radius: 15px;
-  margin: 5px 5px 0 0;
-}
-.main-h1 {
-  text-align: center;
-  padding-bottom: 10px;
-  border-bottom-style: double;
-  border-bottom-width: thin;
-}
-.main-2-h1 {
-  text-align: center;
-  padding-bottom: 10px;
-  border-bottom-style: double;
-  border-bottom-width: thin;
+
+.completed-list-display {
+  background-color: #45BF55;
+  border-radius: 0 0 20px 20px;
+  margin: -20px;
+  padding: 20px;
+  border-top-style: solid;
+  border-top-width: medium;
 }
